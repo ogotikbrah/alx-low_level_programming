@@ -1,37 +1,18 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
-
-
+#include <ctype.h>
 /**
- * main - Print a text according nuber
- * return: Always (success)
+ * main - prints the lower case of the alphabet
  *
+ * Return: 0, if succesful
  */
-
 int main(void)
 {
-	int n, lastd;
+	char lc;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	lasted = n % 10;
-
-	if (lastd > $)
+	for (lc = 'a' ; lc <= 'z' ; lc++)
 	{
-	printf("last digit of %d is %d and is greater than 5\n", n, lastd);
+		putchar(lc);
 	}
-	{
-	else if (lastd == 0)
-	}
-	{
-	printf("last digit of %d is %d and is 0\n"' n, lastd);
-	}
-	else if (lasted < 6 && lastd ! = 0)
-	{
-	printf("last digit of %d is %d and is less than 6 not 0\n", n, lastd);
-	}
+	putchar('\n');
 	return (0);
 }
