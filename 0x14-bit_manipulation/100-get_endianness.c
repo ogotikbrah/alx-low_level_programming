@@ -9,4 +9,4 @@ int get_endianness(void)
 	unsigned int a = 1;
 	char *b = (char *) &i;
 
-	return (*c);
+	return (*b);
